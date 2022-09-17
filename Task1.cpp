@@ -31,7 +31,7 @@ public:
     }
 };
 
-double userInput(const std::string);
+double userInput(const std::string&);
 
 int main(int argc, char** argv)
 {
@@ -77,7 +77,7 @@ int main(int argc, char** argv)
 // В случае успеха, вернет double.
 // При ошибке ввода, сбросит и очистит cin
 // и снова попросит ввести данные
-double userInput(const std::string userText)
+double userInput(const std::string& userText)
 {
     double uData = 0;
     bool err = true;
